@@ -1,12 +1,12 @@
 import { SplashScreen } from 'expo-router'
-import { useFonts, Inter_500Medium } from '@expo-google-fonts/inter'
+import { useFonts, Inter_900Black } from '@expo-google-fonts/inter'
 
 import Text from '../components/Text'
 
 export default function App() {
   // Load the font `Inter_500Medium`
   const [fontsLoaded] = useFonts({
-    Inter_500Medium,
+    Inter_900Black,
   })
 
   return (
